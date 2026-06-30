@@ -62,7 +62,8 @@ Because the AI reads `AGENTS.md` and the `roadmap-executor` skill, it will:
 2. Pick **only the first item** in `TODO.md`.
 3. Plan the change.
 4. Execute and test.
-5. Stop and ask for permission to proceed to task #2.
+5. Log the decision cryptographically to Tempus DDB.
+6. Stop and ask for permission to proceed to task #2.
 
 ---
 
