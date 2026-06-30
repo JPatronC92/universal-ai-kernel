@@ -11,3 +11,5 @@
 5. [ ] Ensure environment variables mapped to infrastructure are documented.
 6. [ ] Update the `CHANGELOG.md` with the new version and features/fixes.
 7. [ ] Tag the release commit according to semantic versioning.
+8. [ ] Record the release action, version, and artifact generation in the Tempus
+       ledger using `tempus record`.

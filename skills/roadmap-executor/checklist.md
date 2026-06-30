@@ -8,4 +8,6 @@
 5. [ ] Verify the task against the project's standards.
 6. [ ] Update the roadmap document (mark as done, check the box, or report
        status back to the user).
-7. [ ] Prompt the user or system for permission to proceed to the next task.
+7. [ ] Record the executed task and any key decisions in the Tempus ledger using
+       `tempus record`.
+8. [ ] Prompt the user or system for permission to proceed to the next task.

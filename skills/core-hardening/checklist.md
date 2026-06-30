@@ -10,3 +10,5 @@
        never hardcoded.
 6. [ ] Execute the full test suite to ensure no regressions were introduced
        during hardening.
+7. [ ] Record the refactoring decisions and security fixes in the Tempus ledger
+       using `tempus record`.

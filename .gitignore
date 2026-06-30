@@ -17,3 +17,7 @@ Thumbs.db
 # Agent Logs/State
 .ai-state/
 agent-debug.log
+
+# Tempus DDB Ledger
+keys.json
+tempus.db

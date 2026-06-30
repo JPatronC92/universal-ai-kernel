@@ -10,7 +10,15 @@ software engineer.
 Unlike hardcoded boilerplates, this Kernel is **polymorphic**. It dynamically
 adapts to the stack, framework, and language of any repository it is placed in.
 It does this by enforcing an execution cycle: _Contextualize -> Plan -> Execute
--> Verify -> Finalize_.
+-> Verify -> Record -> Finalize_.
+
+### 🛡️ Built-in Cryptographic Traceability (Tempus DDB)
+
+The kernel integrates **Tempus DDB** natively. AI agents are mandated to log
+every architectural and execution decision into a local cryptographic ledger
+(`tempus.db`). This acts as an immutable "flight recorder" for your AI's
+actions, ensuring you can audit exactly _why_ an agent made a change and _which
+rule_ it followed.
 
 ---
 
@@ -20,13 +28,19 @@ Imagine you have a messy Next.js (or Python, or Rust) repository with a
 `TODO.md` file. Without this kernel, an AI might try to fix everything at once,
 break your build, or use the wrong libraries.
 
-### Step 1: Install the Kernel
+### Step 1: Install the Kernel and Initialize Ledger
 
 Simply drop this repository into your project root as a sub-folder (or
 submodule).
 
 ```bash
 git submodule add https://github.com/JPatronC92/universal-ai-kernel.git
+```
+
+Initialize the cryptographic flight recorder:
+
+```bash
+tempus init
 ```
 
 ### Step 2: Initialize the Agent with a Skill

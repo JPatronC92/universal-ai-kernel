@@ -6,3 +6,4 @@
 - Both successful responses and error states are explicitly asserted.
 - No real production data is modified or exposed during the test cycle.
 - Test coverage metrics (if applicable) have not decreased.
+- The testing strategy and results are logged immutably into `tempus.db`.

@@ -13,3 +13,5 @@
        `pytest`, `cargo test`).
 7. [ ] Analyze test output; if failures occur, diagnose and refactor the code or
        adjust the test if the contract changed.
+8. [ ] Record the test coverage outcome and any contract changes in the Tempus
+       ledger using `tempus record`.
